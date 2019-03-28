@@ -1,5 +1,5 @@
 import sys
-version = 1.1
+version = '1.1.1'
 print('E-Polymerase by MrMassachusetts')
 print('Version: ', version)
 print('')
@@ -166,7 +166,7 @@ elif choice == '3':
         yn2 = input('> ')
         if yn2 in ('Y', 'y'):
             f1 = open('protein.txt', 'wt')
-            f1.write(''.join(amac))
+            f1.write(', '.join(amac))
             f1.close()
             print('RNA-String saved as \'protein.txt\'')
             input('Press enter to exit')

@@ -108,6 +108,7 @@ elif choice == '3':
     rna = input('5\'> ')
     if len(rna) % 3 == 0:
         lang = len(rna)
+        rna = rna.lower()
         rna = list(rna)
         count = 0
         count2 = 3
